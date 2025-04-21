@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Car, Sale
-from .forms import SaleForm, TradeINForm
+from car import Car
+from forms import SaleForm, TradeINForm
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 

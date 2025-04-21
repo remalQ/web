@@ -1,5 +1,6 @@
 from django import forms
-from models import Sale, TradeINDeal
+from sale import Sale
+from tradein import TradeINDeal
 
 
 class SaleForm(forms.ModelForm):

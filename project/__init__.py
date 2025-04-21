@@ -1,7 +1,7 @@
-from .car import Car
-from .pricelist import PriceList
-from .sale import Sale
-from .tradein import TradeINDeal
+from showroom.car import Car
+from showroom.pricelist import PriceList
+from showroom.sale import Sale
+from showroom.tradein import TradeINDeal
 
 __all__ = [
     "Car",

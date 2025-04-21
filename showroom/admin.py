@@ -1,5 +1,7 @@
 from django.contrib import admin
-from models import Car, Sale, TradeINDeal
+from car import Car
+from sale import Sale
+from tradein import TradeINDeal
 
 # Регистрируем модели в админке для удобного управления
 

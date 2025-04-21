@@ -1,5 +1,5 @@
 from django.urls import path
-import views
+from showroom import views
 
 urlpatterns = [
     path('', views.car_list, name='car_list'),
