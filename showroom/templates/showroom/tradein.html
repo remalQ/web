@@ -1,0 +1,6 @@
+<h2>Trade-IN</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Оформить</button>
+</form>

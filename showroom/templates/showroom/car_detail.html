@@ -1,0 +1,5 @@
+<h2>{{ car.make }} {{ car.model }}</h2>
+<p>Цена: {{ car.price }}</p>
+<p>Год: {{ car.year }}</p>
+<p>Новый: {{ car.is_new }}</p>
+<a href="{% url 'buy_car' car.pk %}">Купить</a>

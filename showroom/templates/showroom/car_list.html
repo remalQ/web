@@ -1,0 +1,14 @@
+<h1>Автомобили в продаже</h1>
+<form method="get">
+  <input type="text" name="q" placeholder="Поиск..." value="{{ query }}">
+  <button type="submit">Искать</button>
+</form>
+<ul>
+  {% for car in cars %}
+    <li>
+      <a href="{% url 'car_detail' car.pk %}">{{ car }}</a>
+    </li>
+  {% empty %}
+    <li>Ничего не найдено</li>
+  {% endfor %}
+</ul>
